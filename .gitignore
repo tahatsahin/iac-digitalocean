@@ -2,7 +2,7 @@
 
 **/.terraform/*
 
-
+*.hcl
 
 # .tfstate files
 

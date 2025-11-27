@@ -29,3 +29,10 @@ terraform apply -var "do_token=${DO_PAT}" -var "pvt_key=$HOME/.ssh/id_rsa"
 terraform show terraform.tfstate
 ```
 
+if you want to create multiple droplets, simply use the following command and plan+apply commands:
+
+```bash
+sed 's/www-1/www-2/g' www-1.tf > www-2.tf
+```
+
+after all steps, you can configure the created droplets using ansible. take a look at: github.com/tahatsahin/configuration-management

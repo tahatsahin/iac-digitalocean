@@ -48,3 +48,5 @@ terraform apply terraform.tfplan
 ```
 
 if you want to configure your newly created droplets using ansible, take a look at: [configuration-management](https://www.github.com/tahatsahin/configuration-management)
+
+Project-URL: https://roadmap.sh/projects/iac-digitalocean

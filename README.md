@@ -10,6 +10,7 @@ to be able to use the repo:
 
 ```bash
 export DO_PAT="your-token-here"
+```
 
 - after that, use the following commands
 

@@ -10,7 +10,9 @@
 
 *.tfstate.*
 
+# .tfplan files
 
+*.tfplan
 
 # Crash log files
 

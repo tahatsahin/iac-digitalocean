@@ -35,4 +35,4 @@ if you want to create multiple droplets, simply use the following command and pl
 sed 's/www-1/www-2/g' www-1.tf > www-2.tf
 ```
 
-after all steps, you can configure the created droplets using ansible. take a look at: [configuration-management](github.com/tahatsahin/configuration-management)
+after all steps, you can configure the created droplets using ansible. take a look at: [configuration-management](https://www.github.com/tahatsahin/configuration-management)

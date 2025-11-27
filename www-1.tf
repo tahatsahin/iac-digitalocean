@@ -4,7 +4,7 @@ resource "digitalocean_droplet" "www-1" {
   region = "nyc3"
   size = "s-1vcpu-512mb-10gb"
   ssh_keys = [
-    data.digitalocean_ssh_key.my-linux.id
+    data.digitalocean_ssh_key.my_linux.id
   ]
   
   connection {
